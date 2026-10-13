@@ -21,7 +21,7 @@
 ### Penyelesaian Deskriptif
 1. Mulai
 2. Masukkan bilangan (x)
-3. Apabila bilangan habis dibagi dengan angka 2 maka hasilnya adalah bilangan genap
+3. Apabila bilangan habis dibagi dengan angka 2, maka hasilnya adalah bilangan genap
 4. Apabila bilangan tidak habis dibagi dengan angka 2, maka hasilnya adalah bilangan ganjil
 5. Selesai
 
@@ -33,15 +33,13 @@ flowchart LR
 
 a((start))
 b[/x/]
-x[nilai = x % 2]
-c{nilai == 0}
-d[/genap/]
-e[/ganjil/]
+c{x%2 == 0 ?}
+d[/''genap''/]
+e[/''ganjil''/]
 z(((stop)))
 
 a --> b
-b --> x
-x --> c
+b --> c
 c --true--> d
 c --false--> e
 d --> z
