@@ -66,17 +66,16 @@ flowchart LR
 a((start))
 b[/r/]
 c[luas = r * r * pi]
-d[keliling = 2 * pi * r]
-e[/luas/]
+d[/luas/]
+e[keliling = 2 * pi * r]
 f[/keliling/]
 z(((stop)))
 
 a --> b
 b --> c
-b --> d
-c --> e
-d --> f
-e --> z
+c --> d
+d --> e
+e --> f
 f --> z
 
 ```
