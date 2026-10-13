@@ -33,7 +33,7 @@ flowchart LR
 
 a((start))
 b[/x/]
-c{x%2 == 0 ?}
+c{x%2 == 0}
 d[/''genap''/]
 e[/''ganjil''/]
 z(((stop)))
