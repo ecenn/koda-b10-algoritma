@@ -21,9 +21,10 @@
 ### Penyelesaian Deskriptif
 1. Mulai
 2. Masukkan bilangan (x)
-3. Apabila bilangan habis dibagi dengan angka 2, maka hasilnya adalah bilangan genap
-4. Apabila bilangan tidak habis dibagi dengan angka 2, maka hasilnya adalah bilangan ganjil
-5. Selesai
+3. Hitung nilai sisa bagi 2 dari bilangan (remainder)
+4. Apabila nilai remainder adalah 0, maka hasilnya adalah bilangan genap
+5. Apabila nilai remainder bukan 0, maka hasilnya adalah bilangan ganjil
+6. Selesai
 
 ### Flowchart
 
@@ -33,19 +34,33 @@ flowchart LR
 
 a((start))
 b[/x/]
-c{x%2 == 0}
+x[remainder = x % 2]
+c{remainder == 0}
 d[/''genap''/]
 e[/''ganjil''/]
 z(((stop)))
 
 a --> b
-b --> c
+b --> x
+x --> c
 c --true--> d
 c --false--> e
 d --> z
 e --> z
 
 ```
+
+### Pseudocode
+
+    DECLARE x : INTEGER
+    DECLARE remainder : INTEGER
+    remainder <- x MOD 2
+
+    IF remainder = 0 THEN
+        OUTPUT "genap"
+    ELSE
+        OUTPUT "ganjil"
+    ENDIF
 
 ## Soal 3: Luas dan Keliling Lingkaran
 - Membuat algoritma menghitung luas dan keliling lingkaran.
@@ -62,6 +77,7 @@ e --> z
 ```mermaid
 
 flowchart LR
+
 
 a((start))
 b[/r/]

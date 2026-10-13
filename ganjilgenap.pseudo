@@ -1,0 +1,9 @@
+DECLARE x : INTEGER
+DECLARE remainder : INTEGER
+remainder <- x MOD 2
+
+IF remainder = 0 THEN
+    OUTPUT "genap"
+ELSE
+    OUTPUT "ganjil"
+ENDIF
