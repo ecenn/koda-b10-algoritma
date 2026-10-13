@@ -67,15 +67,17 @@ a((start))
 b[/r/]
 c[luas = r * r * pi]
 d[keliling = 2 * pi * r]
-e[/luas *and* keliling/]
+e[/luas/]
+f[/keliling/]
 z(((stop)))
 
 a --> b
 b --> c
 b --> d
 c --> e
-d --> e
+d --> f
 e --> z
+f --> z
 
 ```
 
