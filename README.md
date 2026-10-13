@@ -15,9 +15,7 @@
 6. Tuangkan isi Gelas X ke Gelas A
 7. Selesai
 
-<br>
-
-## Soal 2: Menentukan Bilangan Ganjil atau Genap
+## Soal 2: Bilangan Ganjil atau Genap
 - Membuat algoritma menentukan bilangan ganjil atau genap.
 
 ## Penyelesaian
@@ -27,3 +25,13 @@
 4. Apabila bilangan menjadi bentuk desimal, maka hasilnya adalah bilangan ganjil
 5. Apabila bilangan bukan bilangan ganjil, maka hasilnya adalah bilangan genap
 6. Selesai
+
+## Soal 3: Luas dan Keliling Lingkaran
+- Membuat algoritma menghitung luas dan keliling lingkaran.
+
+## Penyelesaian
+1. Mulai
+2. Menghitung jari-jari lingkaran (r)
+3. Mengalikan jari-jari lingkaran (r) dengan jari-jari lingkaran (r) dan dikalikan lagi dengan nilai 3.14 (pi) untuk menghasilkan luas lingkaran
+4. Mengalikan jari-jari lingkaran (r) dengan nilai 3.14 (pi) dan dikalikan lagi dengan angka 2 untuk menghasilkan keliling lingkaran
+5. Selesai
