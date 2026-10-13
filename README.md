@@ -52,7 +52,7 @@ e --> z
 
 ### Pseudocode
 
-    DECLARE x : INTEGER
+    INPUT x
     DECLARE remainder : INTEGER
     remainder <- x MOD 2
 
