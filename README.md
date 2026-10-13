@@ -20,9 +20,10 @@
 
 ### Penyelesaian Deskriptif
 1. Mulai
-2. Apabila bilangan habis dibagi dengan angka 2 maka hasilnya adalah bilangan genap
-5. Apabila bilangan tidak habis dibagi dengan angka 2, maka hasilnya adalah bilangan ganjil
-6. Selesai
+2. Masukkan bilangan (x)
+3. Apabila bilangan habis dibagi dengan angka 2 maka hasilnya adalah bilangan genap
+4. Apabila bilangan tidak habis dibagi dengan angka 2, maka hasilnya adalah bilangan ganjil
+5. Selesai
 
 ### Flowchart
 
