@@ -20,10 +20,8 @@
 
 ### Penyelesaian Deskriptif
 1. Mulai
-2. Apabila bilangan bernilai 0, maka hasilnya netral
-3. Bilangan dibagi dengan angka 2
-4. Apabila bilangan menjadi bentuk desimal, maka hasilnya adalah bilangan ganjil
-5. Apabila bilangan bukan bilangan ganjil, maka hasilnya adalah bilangan genap
+2. Apabila bilangan habis dibagi dengan angka 2 maka hasilnya adalah bilangan genap
+5. Apabila bilangan tidak habis dibagi dengan angka 2, maka hasilnya adalah bilangan ganjil
 6. Selesai
 
 ### Flowchart
@@ -34,24 +32,19 @@ flowchart LR
 
 a((start))
 b[/x/]
-c{x=0 ?}
-d[/netral/]
-e[x/2]
-f{x is float?}
-g[/ganjil/]
-h[/genap/]
+x[nilai = x % 2]
+c{nilai == 0}
+d[/genap/]
+e[/ganjil/]
 z(((stop)))
 
 a --> b
-b --> c
-c --ya--> d
-c --tidak--> e
-e --> f
-f --ya--> g
-f --tidak--> h
+b --> x
+x --> c
+c --true--> d
+c --false--> e
 d --> z
-g --> z
-h --> z
+e --> z
 
 ```
 
@@ -68,7 +61,7 @@ h --> z
 <!-- 
 (()) start
 ((())) stop
+[//] input/output
 [] process
 {} decision
-[//] input/output
 -->
