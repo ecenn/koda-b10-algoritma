@@ -57,10 +57,33 @@ e --> z
 4. Mengalikan jari-jari lingkaran (r) dengan nilai 3.14 (pi) dan dikalikan lagi dengan angka 2 untuk menghasilkan keliling lingkaran
 5. Selesai
 
-<!-- 
-(()) start
-((())) stop
-[//] input/output
-[] process
-{} decision
+### Flowchart
+
+```mermaid
+
+flowchart LR
+
+a((start))
+b[/r/]
+c[luas = r * r * pi]
+d[keliling = 2 * pi * r]
+e[/luas *and* keliling/]
+z(((stop)))
+
+a --> b
+b --> c
+b --> d
+c --> e
+d --> e
+e --> z
+
+```
+
+<!--
+flowchart stuffs:
+(()) - start
+((())) - stop
+[//] - input/output
+[] - process
+{} - decision
 -->
